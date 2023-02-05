@@ -22,12 +22,23 @@ body {
 
 /* Navbar */
 .navbar {
-  background: #ca3643;
+  background: #f9f9f9;
   color: #fff;
-  padding: 0.4rem 2rem;
+  padding: 0.5rem 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar{
+    background: #f9f9f9;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .navbar ul {
@@ -40,27 +51,38 @@ body {
 }
 
 .navbar a {
-  color: #fff;
+  color: hsl(217.8, 23.1%, 22.9%)#333;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .navbar a:hover {
-  color: var(--primary-color);
+  color: #ca3643;
 }
 
 /* Showcase */
 .showcase {
   height: 500px;
   width: 100%;
+  padding: 20px;
+  text-align: center;
   background: var(--primary-color);
 }
 
 .showcase h1 {
-  font-size: 2rem;
-  color: #333;
+  font-size: 1.5rem;
+  color: hsl(217.8, 23.1%, 22.9%);
   text-align: center;
   padding: 0.7rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .showcase h1{
+    font-size: 2rem;
+  color: hsl(217.8, 23.1%, 22.9%);
+  text-align: center;
+  padding: 0.7rem 0;
+  }
 }
 
 .showcase form {
@@ -72,10 +94,46 @@ body {
   width: 100%;
 }
 
+.logo2{
+
+    display: block;
+    height: 60px;
+    width: auto;
+    padding: 5px 0px;
+
+}
+
+.header1{
+
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header1{
+    display: block;
+    margin: 14px 5px; 
+    color: hsl(217.8, 23.1%, 22.9%);
+    font-size: 1.5rem !important; 
+    text-decoration: none !important;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .logo2{
+    display: block;
+    height: 70px; 
+    width: auto; 
+    padding: 5px;
+  }
+}
+
+
+
 .showcase form input,
 form select {
-  font-size: 20px;
-  width: 500px;
+  font-size: 16px;
+  width: 100%;
   max-width: 500px;
   padding: 1rem;
   border: 1px solid #ccc;
