@@ -54,7 +54,27 @@ body {
 
   color: hsl(217.8, 23.1%, 22.9%);
   text-decoration: none;
+  display: block;
 
+}
+
+@media screen and (min-width: 768px) {
+  .text_right1{
+   display: none;
+  }
+}
+
+.text_right2{
+  display: none;
+
+}
+
+@media screen and (min-width: 768px) {
+  .text_right2{
+    color: hsl(217.8, 23.1%, 22.9%);
+    text-decoration: none;
+    display: block;
+  }
 }
 
 .navbar a {
