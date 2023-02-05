@@ -16,7 +16,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: hsl(217.8, 23.1%, 22.9%);
   background: #f8f8f8;
 }
 
@@ -50,8 +50,15 @@ body {
   margin-left: 1rem;
 }
 
+.text_right1{
+
+  color: hsl(217.8, 23.1%, 22.9%);
+  text-decoration: none;
+
+}
+
 .navbar a {
-  color: hsl(217.8, 23.1%, 22.9%)#333;
+  color: hsl(217.8, 23.1%, 22.9%);
   text-decoration: none;
   font-size: 1rem;
 }
