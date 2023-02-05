@@ -53,9 +53,8 @@ body {
 .text_right1{
 
   color: hsl(217.8, 23.1%, 22.9%);
-  text-decoration: none;
+  font-size: 17px !important;
   display: block;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -89,7 +88,7 @@ body {
 
 /* Showcase */
 .showcase {
-  height: 500px;
+  height: 450px;
   width: 100%;
   padding: 20px;
   text-align: center;
