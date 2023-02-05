@@ -92,6 +92,45 @@ body {
   }
 }
 
+.image{
+
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 2px !important;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .image{
+    width: 100%;
+    background-color: #fcfcfc;
+    padding: 2px !important;
+  }
+}
+
+.image-container{
+
+  width: 100% !important; padding: 2px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container{
+    width: 100%;
+    background-color: #fcfcfc;
+    padding: 2px !important;
+  }
+}
+
+.imagea{
+
+    width: 100%;
+    max-width: 600px;
+    background-color: #fcfcfc;
+    padding: 2px !important;
+
+}
+
 .showcase form {
   display: flex;
   align-items: center;
@@ -148,6 +187,7 @@ form select {
 
 }
 
+
 form button {
   font-size: 20px;
   padding: 1rem 2rem;
@@ -163,12 +203,6 @@ form button:hover {
   transform: scale(1.1);
 }
 
-/* Image */
-
-.image {
-  width: 100%;
-  background-color: #fcfcfc;
-}
 
 img {
   display: block;
